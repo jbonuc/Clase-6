@@ -2,10 +2,25 @@ body{
     background-color: rgba(233,231,218,255);
 }
 header{
-    height: 50px;
+    height: 150px;
     display: flex;
     justify-content: space-around;
     padding-left: 10px;
     gap: 50px;
     padding-top: 30px;
+}
+.ДЕТАЛЬНІШЕ{
+    background-color: rgba(216,214,204,255);
+    display: flex;
+    right: 100px;
+    width: 270px;
+    height: 80px;
+    margin-left: 350px;
+    justify-content:left;
+    gap: 20px;
+    font-size: 25px;
+}
+.bi-chevron-down{
+    padding-top: 20px;
+    padding-left: 20px;
 }
