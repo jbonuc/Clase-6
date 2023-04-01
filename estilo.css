@@ -1,8 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: rgba(233,231,218,255);
 }
 header{
-    height: 150px;
+    height: 100px;
     display: flex;
     justify-content: space-around;
     padding-left: 10px;
@@ -12,23 +16,63 @@ header{
 .ДЕТАЛЬНІШЕ{
     background-color: rgba(216,214,204,255);
     display: flex;
-    right: 100px;
-    width: 270px;
+    right: 50px;
+    width: 300px;
     height: 80px;
-    margin-left: 200px;
+    margin-left: 270px;
     justify-content:left;
     gap: 20px;
     font-size: 25px;
+}
+.A{
+    padding-top: 20px;
 }
 .bi-chevron-down{
     padding-top: 20px;
     padding-left: 20px;
 }
 img{
-    height: 150vh;
+    height: 120vh;
     margin: 0 auto;
-    left: 0;
     right: 0;
-    top: 30vh;
+    top: 5vh;
     position: absolute;
+    left: -10vh;
+}
+.derecha{
+    background-color: rgba(216,214,204,255);
+    display: flex;
+    width: 600px;
+    height: 80px;
+    justify-content:left;
+    gap: 20px;
+    font-size: 25px;
+    margin-left: 100vh;
+}
+.primero{
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: -10px;
+    height: fit-content;
+    top: 0px;
+    width: 100px;
+}
+.segundo{
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 0p
+}
+.centro{
+    margin-right: 30px;
+}
+.medio{
+    background-color: rgba(57,62,68,255);
+    width: 500px;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgba(230,228,215,255);
+    margin-top: 100px;
+    padding-left: 25px;
+}
+.texto{
+    margin-left: 150px;
 }
