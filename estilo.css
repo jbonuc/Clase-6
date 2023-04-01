@@ -74,5 +74,6 @@ img{
     padding-left: 25px;
 }
 .texto{
-    margin-left: 150px;
+    margin-left: 200px;
+    transform: scaleX(1.1);
 }
