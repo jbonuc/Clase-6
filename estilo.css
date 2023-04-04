@@ -6,7 +6,7 @@ body{
     background-color: rgba(233,231,218,255);
 }
 header{
-    height: 100px;
+    height: 10vh;
     display: flex;
     justify-content: space-around;
     padding-left: 10px;
@@ -16,20 +16,20 @@ header{
 .ДЕТАЛЬНІШЕ{
     background-color: rgba(216,214,204,255);
     display: flex;
-    right: 50px;
-    width: 300px;
-    height: 80px;
-    margin-left: 270px;
+    right: 105vh;
+    width: 50vh;
+    height: 12vh;
+    margin-left: 43vh;
     justify-content:left;
-    gap: 20px;
+    gap: 5vh;
     font-size: 25px;
 }
 .A{
-    padding-top: 20px;
+    padding-top: 3vh;
 }
 .bi-chevron-down{
-    padding-top: 20px;
-    padding-left: 20px;
+    padding-top: 3vh;
+    padding-left: 3vh;
 }
 img{
     height: 120vh;
@@ -42,10 +42,10 @@ img{
 .derecha{
     background-color: rgba(216,214,204,255);
     display: flex;
-    width: 500px;
-    height: 80px;
+    width: 115vh;
+    height: 13vh;
     justify-content:left;
-    gap: 20px;
+    gap: 3vh;
     font-size: 25px;
     margin-left: 100vh;
     position: absolute;
@@ -64,7 +64,7 @@ img{
 }
 .segundo{
     color: rgba(255, 255, 255, 0.5);
-    margin-left: 60px;
+    margin-left: 90px;
     margin-top: 30px;
     position: absolute;
     z-index: -1;
@@ -78,23 +78,23 @@ img{
 }
 .medio{
     background-color: rgba(57,62,68,255);
-    width: 530px;
+    width: 85vh;
     font-size: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
     color: rgba(230,228,215,255);
-    margin-top: 100px;
+    margin-top: 15vh;
     padding-left: 25px;
     
 }
 .texto{
-    margin-left: 200px;
+    margin-left: 30vh;
     transform: scaleX(1.1);
 }
 .ultimo{
     background-color: rgba(57,62,68,255);
     display: flex;
-    width: 300px;
+    width: 50vh;
     height: 80px;
     justify-content:center;
     gap: 20px;
@@ -113,7 +113,7 @@ img{
     margin-left: -15px;
 }
 footer{
-    height: 100px;
+    height: 10vh;
     display: flex;
     padding-left: 10px;
     padding-top: 30px;
